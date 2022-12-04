@@ -66,8 +66,11 @@ module.exports = {
       appId: 'yPohCSYAZZsHKJSbP8mPJ2Nm-MdYXbMMI',// your appId
       appKey: 'hmOTt2KHWzvEPEIYqXrpxJ9u', // your appKey
       placeholder: 'write something',
-      avatar: 'retro',
+      avatar: 'robohash', // 头像风格
       visitor: true, // 阅读量统计
+      requiredFields: ['nick'], //设置必填项
+      region: 'us',
+      serverURLs: 'https://yPohCSYA.api.lncldglobal.com', // 解决LeanCloud国际版无法评论，yPohCSYA为appId前8位
     },
   },
   markdown: {
