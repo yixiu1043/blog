@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: YIXIU
-tagline: STAY HUNGRY STAY FOOLISH!
+tagline: STAY HUNGRY STAY FOOLISH
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -11,9 +11,9 @@ tagline: STAY HUNGRY STAY FOOLISH!
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImageStyle: {
-  height: '450px'
-}
+# bgImageStyle: {
+#   height: "440px"
+# }
 isShowTitleInHome: true
 actionText: Guide
 actionLink: /views/other/guide

@@ -6,12 +6,15 @@
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build .",
     "deploy": "bash scripts/deploy.sh",
-    "push": "bash scripts/push.sh"
+    "push": "bash scripts/push.sh",
+    "update": "bash scripts/update.sh"
   },
   "devDependencies": {
     "vuepress": "1.9.7",
     "vuepress-theme-reco": "1.6.16",
-    "@vuepress/plugin-pwa": "1.9.7"
+    "@vuepress/plugin-pwa": "1.9.7",
+    "vuepress-plugin-permalink-pinyin": "^1.1.0",
+    "@vuepress-reco/vuepress-plugin-rss": "^1.0.2"
   },
   "description": "blog"
 }
