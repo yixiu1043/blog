@@ -74,7 +74,7 @@ module.exports = {
     },
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: false
   },
   plugins: [
     [
@@ -91,6 +91,12 @@ module.exports = {
     [
       '@vuepress-reco/rss',
       { site_url: 'https://yixiu1043.github.io/blog/' }
+    ],
+    ['vuepress-plugin-code-copy',
+      {
+        align: 'bottom',
+        color: '#ff5722',
+      },
     ],
   ],
 }
