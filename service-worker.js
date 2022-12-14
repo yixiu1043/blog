@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "0109d9b64727ba40a5988faee3c093fa"
+    "revision": "045ca09728c9d6cd465a5917d899d062"
   },
   {
     "url": "assets/css/0.styles.6d914a2f.css",
@@ -410,16 +410,16 @@ self.__precacheManifest = [
     "revision": "22280ea71249c9a792638b958ea634a2"
   },
   {
-    "url": "assets/js/90.0d219f5e.js",
-    "revision": "eb364421b7dc9c6377379907e0e3e0ac"
+    "url": "assets/js/90.1a1a6f97.js",
+    "revision": "8f6f3131d8334ad518d4cb67f706a4f5"
   },
   {
     "url": "assets/js/91.fa6ed260.js",
     "revision": "6369332f6efdddf64bda0aa946108aae"
   },
   {
-    "url": "assets/js/app.cfdc9579.js",
-    "revision": "03c46531e8f6ffe95118adf8449cb98a"
+    "url": "assets/js/app.49252226.js",
+    "revision": "e36dc9373afee4840ba879123070d9a0"
   },
   {
     "url": "avatar.png",
@@ -427,367 +427,375 @@ self.__precacheManifest = [
   },
   {
     "url": "blogs/backend/2021/2022-10-20-ji-suan-ji-zu-cheng-yu-xi-tong-jie-gou.html",
-    "revision": "4f304e5a2e112ac9eb2c354e1fc20dd9"
+    "revision": "80bda3178777547f71f47a7f8a5bb88e"
   },
   {
     "url": "blogs/backend/2021/2022-11-1-cao-zuo-xi-tong.html",
-    "revision": "03c023bfee258c68774c9c467a59ba96"
+    "revision": "e4ca23038f50d44d3c6b0ecb70d4acaa"
   },
   {
     "url": "blogs/backend/2021/2022-11-9-cuo-ti-ben.html",
-    "revision": "f1c4e81d20453fb2896a7ad0e4caaca7"
+    "revision": "23a235845308eb76e39ada861551ea54"
   },
   {
     "url": "blogs/backend/2021/2022-5-2-cyu-yan-ru-men.html",
-    "revision": "dc35fa11ea228b19cc98a3d23ef53779"
+    "revision": "8e1e30eff33fde62ecf73b2dbeb15a7e"
   },
   {
     "url": "blogs/backend/2021/2022-8-19-chi-san-jie-gou.html",
-    "revision": "1cda9707a2506e098ba1a3e1ee245fc5"
+    "revision": "f329dc646f18f451940d66f5a2226e55"
   },
   {
     "url": "blogs/backend/2021/2022-9-24-ruan-jian-gong-cheng.html",
-    "revision": "894d57be6758b410782c0502c6cb2b21"
+    "revision": "179f1a73bde115d21d36bb2b390a2e18"
   },
   {
     "url": "blogs/frontend/2019/2019-10-23-css-xiu-gai-liu-lan-qi-gun-dong-tiao-shu-ru-kuang-mo-ren-yang-shi.html",
-    "revision": "6d59aaaefc9608467709e88dbb2f28fc"
+    "revision": "80479f753ce823fa9a3245eb3a52051f"
   },
   {
     "url": "blogs/frontend/2019/2019-10-23-momenthuo-qu-zuo-tian-ben-zhou-ben-yue.html",
-    "revision": "4280951ecd32734f3451200f88b7a1c2"
+    "revision": "e924bbe5affbf2c08356d3a046bff281"
   },
   {
     "url": "blogs/frontend/2019/2019-12-12-yi-dong-duan-kai-fa-zong-jie.html",
-    "revision": "018c25380cea7ce4104197a9217a2c0e"
+    "revision": "56837b20a0e0a7df6a34c8090c83832c"
   },
   {
     "url": "blogs/frontend/2019/2019-12-23-lan-jie-liu-lan-qi-hou-tui-shi-jian.html",
-    "revision": "9892dc431ce591248f6c747958b0493a"
+    "revision": "d999a7be1660a3c88c86d8cc61ac3838"
   },
   {
     "url": "blogs/frontend/2019/2019-12-6-canvasjiang-tu-pian-zhuan-wei-base64.html",
-    "revision": "b9c38490375796c1486f063741a462c0"
+    "revision": "758624a0168d8d3b076f5ec9b4092c4b"
   },
   {
     "url": "blogs/frontend/2019/2019-12-6-gitdai-ma-ti-jiao-gui-fan.html",
-    "revision": "9badb35e71d69ea90d82bcac0324d3bf"
+    "revision": "881e53e13873db484067a7cbcc39bf11"
   },
   {
     "url": "blogs/frontend/2019/2019-12-6-gitzhu-cang-yu-ban-ben-hui-gun.html",
-    "revision": "9a4e453cb621f25c753765f16e1d4d27"
+    "revision": "04a022402a2c6a785376aca224bca1c0"
   },
   {
     "url": "blogs/frontend/2019/2019-12-6-ji-lu-yi-ci-loadingzhi-zuo.html",
-    "revision": "df700948cd2906de6937aca4e378fab0"
+    "revision": "6770b321fee4aec503ff4b9b127921cd"
   },
   {
     "url": "blogs/frontend/2019/2019-12-6-xiang-mu-jie-kou-gui-fan.html",
-    "revision": "73a2a2bf6ef3b8381060ce959b01c054"
+    "revision": "fa782a0832a3eb966ef5b56e118bba6c"
   },
   {
     "url": "blogs/frontend/2019/2019-7-25-dai-ma-gui-fan-xie-chu-wu-xia-dai-ma.html",
-    "revision": "77a66d3a67b9707d24d51567c9888491"
+    "revision": "c1a59bf1f0c464028bb2538f5c171e18"
   },
   {
     "url": "blogs/frontend/2019/2019-8-10-vuepressda-jian-ge-ren-bo-ke.html",
-    "revision": "9aead2fabcb2d480adb902cbdf80631d"
+    "revision": "1d8dd5c17ac022d8c6191c1767f9bf07"
   },
   {
     "url": "blogs/frontend/2019/2019-8-12-css-chang-yong-ji-qiao-pian.html",
-    "revision": "878f0f6d7d245c651d12898148d53b7f"
+    "revision": "868ae9cd2dc0bcd3a1acfe00c3ac25c5"
   },
   {
     "url": "blogs/frontend/2019/2019-8-13-canvasde-shi-yong.html",
-    "revision": "dbe3ff6571e6c8d6b5f1ad4d3480de85"
+    "revision": "2ae0f67f324ae7814c09b652d75b17f3"
   },
   {
     "url": "blogs/frontend/2019/2019-8-29-vscode-cha-jian-pian.html",
-    "revision": "c9b093bed143af2d62129aebf46371c2"
+    "revision": "57af0f922e55122ba57629903384abb7"
   },
   {
     "url": "blogs/frontend/2019/2019-8-8-gulpde-shi-yong.html",
-    "revision": "3f6061282a1b0ee22718cd6d1cbb5f1f"
+    "revision": "308abfbb9972190bc0c3989ae1bf4cfc"
   },
   {
     "url": "blogs/frontend/2019/2019-9-12-react-nativebi-ji.html",
-    "revision": "7a8d430ea0fdb6101fa0414a5104e4ca"
+    "revision": "e802415d780f49b7e099e5b1e6b2b4b7"
   },
   {
     "url": "blogs/frontend/2019/2019-9-2-chang-yong-gong-ju-han-shu-shou-ji.html",
-    "revision": "68abff4888f6e9cd031a462eee420355"
+    "revision": "d533e1d74bf999e4ef5615afb988f1af"
   },
   {
     "url": "blogs/frontend/2019/2019-9-2-chang-yong-zheng-ze-shou-ji.html",
-    "revision": "1f0b380417708ae09fb6c9e83b5d87a2"
+    "revision": "114fb2b330fd2720d49504598fcb685f"
   },
   {
     "url": "blogs/frontend/2019/2019-9-2-yi-dong-duan-gua-pei-gong-ju-han-shu.html",
-    "revision": "27804d4aa2c5641146e0b4e8e43c2509"
+    "revision": "e83df084f8f14c9a81f6b38fbebf54ff"
   },
   {
     "url": "blogs/frontend/2019/2019-9-20-react-routerde-shi-yong.html",
-    "revision": "2083b24d307a541c521faef027820d3f"
+    "revision": "0d9a0a02d5a8a44c50c0cc04609a9f62"
   },
   {
     "url": "blogs/frontend/2019/2019-9-23-jsbi-ji.html",
-    "revision": "2e4bf1e8a5806f5576ad6dcce6b31ce6"
+    "revision": "f9f116d3457fa3236b04f5e9b5d48f45"
   },
   {
     "url": "blogs/frontend/2019/2019-9-3-axiosfeng-zhuang.html",
-    "revision": "13da5824a81723e1a394e5b75500718f"
+    "revision": "241643a9b8503cedefefd3683d586637"
   },
   {
     "url": "blogs/frontend/2019/2019-9-3-fetchfeng-zhuang.html",
-    "revision": "33659962bd4837aa2f12ee5f6cd4a85c"
+    "revision": "ce3237a1febf43f50eed1b9e3d42c50d"
   },
   {
     "url": "blogs/frontend/2019/2019-9-4-yi-dong-duan-gua-pei-csspian.html",
-    "revision": "0a12dd3e38f7d314b544855776cfb5b5"
+    "revision": "c291f1257fbe9a5206d150c92a5b9b8b"
   },
   {
     "url": "blogs/frontend/2019/2019-9-5-eslintde-shi-yong.html",
-    "revision": "f7fc495f9f7e484228f31983110d5f0c"
+    "revision": "232c40e2d55f2b0985db2ed3bdbd2941"
   },
   {
     "url": "blogs/frontend/2019/2019-9-5-pei-zhi.editorconfigwen-jian.html",
-    "revision": "faa539d447badb7458571dc9d618e1fe"
+    "revision": "9809b58b6087f11ff4963aa8d56301fa"
   },
   {
     "url": "blogs/frontend/2019/2019-9-5-stylelintde-shi-yong.html",
-    "revision": "3e992d4518cdf3e68d33839934929366"
+    "revision": "4666b28e19f851e728d8de7b2748a84c"
   },
   {
     "url": "blogs/frontend/2019/2019-9-6-react-reduxde-shi-yong.html",
-    "revision": "1bc8d0d8d5a5060a2022c67520964d22"
+    "revision": "5bf0bfc74d99b487207a1e23018ad15d"
   },
   {
     "url": "blogs/frontend/2019/2019-9-6-reactbi-ji.html",
-    "revision": "b18259c42ddd4bdf7ddc649e5e316564"
+    "revision": "18b6ddeab31d4c1f760a2b0e83197ee2"
   },
   {
     "url": "blogs/frontend/2019/2019-9-7-react-hooksde-shi-yong.html",
-    "revision": "9f6e122a12494ebd11393dbf19ad6b00"
+    "revision": "7d2436689c6e1eb03d9255960a1bb968"
   },
   {
     "url": "blogs/frontend/2019/2019-9-8-react-lifecyclede-shi-yong.html",
-    "revision": "9c4656124a614353604712e13ba55c5d"
+    "revision": "76d3b444469deb5d608450ed4aeab138"
   },
   {
     "url": "blogs/frontend/2019/2019-9-9-jszhi-xing-ji-zhi-hong-ren-wu-yu-wei-ren-wu.html",
-    "revision": "678246a3d4f3bb86be2e1b2f5c8c6fb4"
+    "revision": "d54aa130e9438763cf89f091614ac6c5"
   },
   {
     "url": "blogs/frontend/2019/2019-9-9-shgeng-xin-jiao-ben.html",
-    "revision": "1ef383afff9f1bb152aacf07a71567ba"
+    "revision": "e5f23ab422acb5b64655b4dd4f2fa9cd"
   },
   {
     "url": "blogs/frontend/2020/2020-2-8-pixixue-xi-bi-ji.html",
-    "revision": "36170bdeab5eea8e424e726a719855db"
+    "revision": "547206c3667a378fc85babc684f0260e"
   },
   {
     "url": "blogs/frontend/2020/2020-3-7-qian-duan-zhi-shi-dao-tu.html",
-    "revision": "32d0bd899d74dc488d07a041940624ff"
+    "revision": "f97d8561f683a5d5c210b5a2e9edd875"
   },
   {
     "url": "blogs/frontend/2020/2020-4-10-jenkinspei-zhi.html",
-    "revision": "4db84dabda6830c2ab5d1f1d6f25b089"
+    "revision": "6dcb35e51521f9ef1bd3dd64a56d46c1"
   },
   {
     "url": "blogs/frontend/2020/2020-4-8-yamljszhuan-huan-ymlwei-json.html",
-    "revision": "7795c69bd627891d428da0c936fab572"
+    "revision": "8708d1e8faa435cfc2de98bb79f720f9"
   },
   {
     "url": "blogs/frontend/2021/2021-5-15-flutterru-men.html",
-    "revision": "35fa53293a1a33f677688e59a9e50f14"
+    "revision": "55ed2a7abfa97c8a49ebedc6698855a5"
   },
   {
     "url": "blogs/frontend/2021/2021-6-12-fvmde-shi-yong.html",
-    "revision": "14e93b14f5c8bbe62a575f4aa279165e"
+    "revision": "920e00ebeca955f681a5ebe1b7b7ba6c"
   },
   {
     "url": "blogs/frontend/2021/2021-7-8-fluttercai-keng.html",
-    "revision": "3b67733d67f95c1b39dc448be947ca9d"
+    "revision": "83b17aec3ad8107a24d465b83f4d6b82"
   },
   {
     "url": "blogs/frontend/2021/2021-8-21-flutterji-lei.html",
-    "revision": "994567cddd2437edc4d235e65e983aaf"
+    "revision": "c95f44c4cdbc8c69742109da57d93400"
   },
   {
     "url": "blogs/frontend/2021/2022-6-11-flutteryu-jstong-xin.html",
-    "revision": "c03db6d44b16e73955a410b96241ebfc"
+    "revision": "c9d93c50051fc1b9dc0f326f8d34ab26"
   },
   {
     "url": "blogs/interview/2019-9-11-mian-shi-zong-jie.html",
-    "revision": "6d1109d343e2e4ced6c26e3883d5df1a"
+    "revision": "5cfc8cae68f394a03f48b909958e5a1a"
   },
   {
     "url": "blogs/interview/2019-9-6-mian-shi-ti-shou-ji.html",
-    "revision": "52f593cac1577f85c8fa1a323438494e"
+    "revision": "84b5ae58faadd476168b3533867b0251"
   },
   {
     "url": "blogs/interview/2020-4-15-zhi-shi-dian-zong-jie.html",
-    "revision": "2612661c3d599efaf1428bee936311e2"
+    "revision": "164d3a4228f3cad4f94d10f64e24c546"
   },
   {
     "url": "blogs/interview/2021-1-17-mian-shi-ji-lu.html",
-    "revision": "cf436960fe6a8f159e28940cc0cc8e9b"
+    "revision": "9f2cd5e130284982c8ae4bfa9ae92841"
   },
   {
     "url": "blogs/other/2019/2019-8-1-bo-yi-lun-ji-chu.html",
-    "revision": "bd05faf1a242847de0d1903818d5fa77"
+    "revision": "e62d18cbb1c281bc4d27f1f30d31ec48"
   },
   {
     "url": "blogs/other/2019/2019-8-10-jin-gang-jing.html",
-    "revision": "ed6f8b9f022fe3f1689b079ec65451a4"
+    "revision": "330398fe6fa455d335fb6d9c4cdb72bf"
   },
   {
     "url": "blogs/other/2019/2019-8-11-yong-shou-ji-pai-chu-gao-zan-zhao-pian-ji-qiao-pian.html",
-    "revision": "bde11ad2f2a601adcbffc309e1b3f3b0"
+    "revision": "0b95f090d1b36076a544d6b0e6558f06"
   },
   {
     "url": "blogs/other/2019/2019-8-12-lu-mi-de-shi-er-.html",
-    "revision": "69f232358390ebbbf6a34c6fdccba132"
+    "revision": "ab5b8b63b2e23d742e63157510e714b9"
   },
   {
     "url": "blogs/other/2019/2019-8-12-lu-mi-de-shi-yi-.html",
-    "revision": "a1bf591f12344dd3080fd06972398077"
+    "revision": "0a1372813ab6af7804ffbe052c30db72"
   },
   {
     "url": "blogs/other/2019/2019-8-17-yong-shou-ji-pai-chu-gao-zan-zhao-pian-gou-tu-pian.html",
-    "revision": "dbf5d3f8618d461a7474f03c84191faa"
+    "revision": "653724d072aba60c356ef09ebcc7162b"
   },
   {
     "url": "blogs/other/2019/2019-8-18-yong-shou-ji-pai-chu-gao-zan-zhao-pian-zao-xing-pian.html",
-    "revision": "737d2cf5528d37b5f310c48b14017366"
+    "revision": "81104945146ba855e04274ab694dfb80"
   },
   {
     "url": "blogs/other/2019/2019-8-20-guo-feng-zhao-nan-cao-chong.html",
-    "revision": "be0bd50a029a77b9bb5ed1122a5ed5ed"
+    "revision": "b380e558a649f9b95d83da2f9f0d2476"
   },
   {
     "url": "blogs/other/2019/2019-8-22-wei-xin-shi-yong-de-qi-ji-yin-qiao.html",
-    "revision": "612a39b68df20ad5720283ba2f75428c"
+    "revision": "f9249d9cdad46db093aec20c9cd06206"
   },
   {
     "url": "blogs/other/2019/2019-8-28-yong-shou-ji-pai-chu-gao-zan-zhao-pian-xiu-tu-pian.html",
-    "revision": "11b5efc689af41b6d5b3381744685851"
+    "revision": "09abe55e9a9410f894a0b4a200965d6a"
   },
   {
     "url": "blogs/other/2019/2019-8-29-shu-dong.html",
-    "revision": "561fb22eafa3cef397da3636e1316c90"
+    "revision": "8273a638d2240266493bb593ec1d756b"
   },
   {
     "url": "blogs/other/2019/2019-8-29-ying-yu-xue-xi-duan-yu-pian.html",
-    "revision": "faed64263ad05440805dfc90e8cf695c"
+    "revision": "91e5370db31420d062c52d57f82fa8a1"
   },
   {
     "url": "blogs/other/2019/2019-8-30-ying-yu-xue-xi-ci-hui-pian.html",
-    "revision": "400dcdce012ec1f9d658b6fc9b55da5a"
+    "revision": "047cb75ed3820bf01ede3711b98f626c"
   },
   {
     "url": "blogs/other/2019/2019-8-5-du-zhuang-zi.html",
-    "revision": "47a3f4ec1e71e58c6159f5568fac0bf7"
+    "revision": "0ca7ddd13fe21cab2306f96237a9c51f"
   },
   {
     "url": "blogs/other/2019/2019-8-5-yi-xiu-ji-ta-ke-tang-le-li-pian.html",
-    "revision": "73ebd78bfb3779882889b10afd846ad4"
+    "revision": "9aca760577f9183aaa4a9d165b991e6b"
   },
   {
     "url": "blogs/other/2019/2019-8-8-wo-de-xiao-yu-ni-xing-liao.html",
-    "revision": "861c583dcf15c08c62d2d584bae86649"
+    "revision": "3f8c1cf75685911bfcab61a4ec5b2042"
   },
   {
     "url": "blogs/other/2019/2019-9-13-zhang-wo-hao-sheng-yin-de-jue-qiao.html",
-    "revision": "b5d05cf979ed738a9b82086469a04f1e"
+    "revision": "6e918f0afc130dc044f4f5ca15cf5988"
   },
   {
     "url": "blogs/other/2019/2019-9-2-ying-yu-xue-xi-jin-ju-pian.html",
-    "revision": "67da3a44dcdafa7b80d9315145956fbe"
+    "revision": "7fd6e6ec831d0ecb7e6da22a462bc38d"
   },
   {
     "url": "blogs/other/2020/2020-3-7-yi-xiu-ji-ta-ke-tang-ke-cheng-ji-shi.html",
-    "revision": "0067c54e7ea7f72829865c36e5e38850"
+    "revision": "1a083b1e5eda30fc236f8b374a820869"
   },
   {
     "url": "blogs/other/2022/2022-09-21-mei-lian-chu-gong-bu-jia-xi.html",
-    "revision": "4bf8ce9a4e80835071897dbe8181c34d"
+    "revision": "0ad6e80fd76c3715d39deed6147f8eb4"
   },
   {
     "url": "blogs/other/2022/2022-11-30-wo-de-lei-she-shou-shu-ri-ji.html",
-    "revision": "f103232a40dbc4635b7397850333e24f"
+    "revision": "e7354057cb01e327b7e24f002cb05164"
   },
   {
     "url": "blogs/other/2022/2022-12-5-fei-lu-bin-ban-ta-yan-lu-xing-gong-lue.html",
-    "revision": "66955ea7ff545fc5d637c28ef02e7d19"
+    "revision": "9d53845108b586478cddd8041dd2d020"
   },
   {
     "url": "blogs/other/2022/2022-12-9-zi-you-zhi-ye-tan-suo.html",
-    "revision": "5eb987fad521f8fe6860363af0a7ddb6"
+    "revision": "45d668efd0ed7891d66a2b9a645d6730"
   },
   {
     "url": "blogs/other/2022/2022-9-28-shao-shui-xue-xi-fa.html",
-    "revision": "90c247e4ff0a5ac0bff80e3a7d833847"
+    "revision": "b046cb505b2ca9d324ebc7bb87a4ed65"
   },
   {
     "url": "blogs/other/2022/2022-9-30-qi-che-4wan-gong-li-bao-yang-zuo-liao-sha.html",
-    "revision": "816d5905757bd2742448017f35baec6d"
+    "revision": "63762c4d1d72e112a8aefc255e5e7438"
   },
   {
     "url": "categories/backend/index.html",
-    "revision": "4f132107b0124a450247ba9461f7906b"
+    "revision": "88e428cb25c926191e68ed56836c2231"
   },
   {
     "url": "categories/frontend/index.html",
-    "revision": "eeab431185cf5ce04e94d5c2e384ecd2"
+    "revision": "80b644ee260767b754d54140730128a1"
   },
   {
     "url": "categories/frontend/page/2/index.html",
-    "revision": "e16525a091939257510a5928aff52f9c"
+    "revision": "f78268f30c34c1a021d5bbdb8c33ecd2"
   },
   {
     "url": "categories/frontend/page/3/index.html",
-    "revision": "ee740f68e923375ef498ecf4cdaaa883"
+    "revision": "29a38eda9b259e36e2da0d729a7efbc3"
   },
   {
     "url": "categories/frontend/page/4/index.html",
-    "revision": "facf56144f52c66fc688cd8ff210d095"
+    "revision": "de387a70faa16142f082fea57c12ac9e"
   },
   {
     "url": "categories/index.html",
-    "revision": "8faf0c748a05bcd29470029af38307a4"
+    "revision": "70b00432f69b64bb2b2fcfa257d0a744"
   },
   {
     "url": "categories/interview/index.html",
-    "revision": "4dd407665669d99e463f83ef6438babd"
+    "revision": "7fb50cafc8c7addfa04272b8d1eed155"
   },
   {
     "url": "categories/other/index.html",
-    "revision": "9a427a29c9a58da75f3acf1aa59141d4"
+    "revision": "8fa523429e6d39376934308dcbc5e2d6"
   },
   {
     "url": "categories/other/page/2/index.html",
-    "revision": "e34b2f961188fcfb7feb533445899b8b"
+    "revision": "eb18b72246676855d4c8f28076f30f8c"
   },
   {
     "url": "categories/other/page/3/index.html",
-    "revision": "5e2338e1b77f6c704d988ec81c27d44d"
+    "revision": "1d02b10a7211052dea022dbce19a1a9a"
   },
   {
     "url": "docs/guide.html",
-    "revision": "4e2939cba30a7ac895212a0d80f50b5b"
+    "revision": "3160b485a609d52991ea0c728b384533"
   },
   {
     "url": "docs/marketplace.html",
-    "revision": "1ebfc93bd49f911d8019829445490a78"
+    "revision": "b19ffc8b66eed9527d71d710294eac8a"
   },
   {
     "url": "hero.png",
     "revision": "5367b9349d4e048235eeed50d9ef36df"
   },
   {
+    "url": "icons/avatar.png",
+    "revision": "12a1f0a39e5cc8bd2b3feb8bca7c7d88"
+  },
+  {
+    "url": "icons/Woz (1).png",
+    "revision": "578f76c16dbb33d6348b2cd1359e4343"
+  },
+  {
     "url": "index.html",
-    "revision": "8ac3c8529c6d8d51c96a9dcd2c16a380"
+    "revision": "69d1936e0fd24d2fdf3d180ba38ff690"
   },
   {
     "url": "logo.png",
@@ -795,159 +803,163 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/Axios/index.html",
-    "revision": "0a0f42f2b697456e2d6b25fe1339de5a"
+    "revision": "c00bd69d6c80bf075487dba56cf17f7c"
   },
   {
     "url": "tag/Canvas/index.html",
-    "revision": "7cc236e9be5a987baec917334882d25b"
+    "revision": "56dd207b1e3fcc3a2975c5f1fb195f07"
   },
   {
     "url": "tag/Css/index.html",
-    "revision": "9eb79450f224a0198b00fb16f35bd975"
+    "revision": "c476aca617d07bf387be4631d5cbe060"
   },
   {
     "url": "tag/Editorconfig/index.html",
-    "revision": "d763df6376156a0a9ac3b05fd1cc41ea"
+    "revision": "a11fbe82b56c31660202d65176fb76b5"
   },
   {
     "url": "tag/Eslint/index.html",
-    "revision": "3c807acf3c625ca7fb53dfd6ce0090d2"
+    "revision": "fed99462fc2ec43df06a4a220bfd1454"
   },
   {
     "url": "tag/Fetch/index.html",
-    "revision": "d4f79e8a3c11127be23c08a4109ca61f"
+    "revision": "d887be681793998bfa2afd74c735e599"
   },
   {
     "url": "tag/flutter/index.html",
-    "revision": "510757e6e18e590083e76f2b9d048b93"
+    "revision": "f511b87772c522085c26f9a786f379f7"
   },
   {
     "url": "tag/Git/index.html",
-    "revision": "2b024eed832009c8f645e6d58c154f78"
+    "revision": "6188cf714671046a620a5ab1897620c0"
   },
   {
     "url": "tag/Gulp/index.html",
-    "revision": "abf6e813b11783fa2ea5ba5682e6df8b"
+    "revision": "fb59c6864a3f3d95c38bf07dfbdfe112"
   },
   {
     "url": "tag/index.html",
-    "revision": "c00989ccf108d034f351a83cbc27d7b6"
+    "revision": "d9f51901794475c8cc261d5305cd5d54"
   },
   {
     "url": "tag/Js/index.html",
-    "revision": "080b31a15204d5dd3472bdd4414a9f6d"
+    "revision": "51b96dfacd8b055e7341399e2cf52f12"
   },
   {
     "url": "tag/Mobile/index.html",
-    "revision": "980a7248102882a9f02fbd8c1dfb42d3"
+    "revision": "bdcf4ab15f4d66c4dbdbdcf402e15dc0"
   },
   {
     "url": "tag/Moment/index.html",
-    "revision": "2798b33e7a5cf9b10f77ccb3c8753a54"
+    "revision": "73d430dc666f741062884f8daba71aff"
   },
   {
     "url": "tag/PIXI/index.html",
-    "revision": "0563b866a420224157013fdce6191f59"
+    "revision": "fae32490d5e70bd98c44295df01876f7"
   },
   {
     "url": "tag/React/index.html",
-    "revision": "0313b0449431c7e2acc7f1a199add60b"
+    "revision": "2eb232e31ae1fe023c98132c05e9ec27"
   },
   {
     "url": "tag/ReactNative/index.html",
-    "revision": "283a76581c089093a11f7afd9f18f2bd"
+    "revision": "5fb9c630181692fac75d303971a1f8c9"
   },
   {
     "url": "tag/ssh/index.html",
-    "revision": "1b55b975950268e1d838b0de0fe8d5aa"
+    "revision": "b93c032387a57310fef5148e2629fd19"
   },
   {
     "url": "tag/Stylelint/index.html",
-    "revision": "15c2c8c89189f3013bcc8035f0b84aa6"
+    "revision": "01e7cad6e43ac3e51167474b33b2a191"
   },
   {
     "url": "tag/Vscode/index.html",
-    "revision": "f2164cf1c54074386cebca1f3c48e7ac"
+    "revision": "82cf36d3217130ca1462cc515eec96b4"
   },
   {
     "url": "tag/Vuepress/index.html",
-    "revision": "b1e5738b708a1d6ea0f6292d607c7ea5"
+    "revision": "c5468579aeafaee2dd7b6e85baee7f6e"
   },
   {
     "url": "tag/吉他/index.html",
-    "revision": "9a62759361238f86baee41442c9a73ea"
+    "revision": "3053ff5ed98f94ee4b5ba2e8960a3f13"
   },
   {
     "url": "tag/学习方法/index.html",
-    "revision": "65fcfa88b5293330bd03da71e4d979d9"
+    "revision": "a33494da5f07448ff94e68346a99ff61"
   },
   {
     "url": "tag/导图/index.html",
-    "revision": "4209fdab2ef676b462fb85fc3f0ce61f"
+    "revision": "aa273ca5339a3c867b4fe43bcd60a069"
   },
   {
     "url": "tag/工具/index.html",
-    "revision": "9c8372410ae637d2cb3dc6b114dce8ec"
+    "revision": "d43f2905399f848dbdc287c81b966039"
   },
   {
     "url": "tag/投资/index.html",
-    "revision": "d12fd220d88d63de3b1536d092dcb35c"
+    "revision": "31c41c7b320a9f94e0a23adf1a1bbc71"
   },
   {
     "url": "tag/摄影/index.html",
-    "revision": "27b8a426047e5fc6df3f442d07190e43"
+    "revision": "cc7725bbfa0c1b3a0aba55bc94f24e43"
   },
   {
     "url": "tag/旅行/index.html",
-    "revision": "6c561668d4152ea2ed72ffe7f20cdee6"
+    "revision": "d8f57ebf5cda120b64a8c796834dab23"
   },
   {
     "url": "tag/日记/index.html",
-    "revision": "d51ed76865636a64262104c44b62c4ca"
+    "revision": "0b5b1f3d6daf99a42abd9bb877621b54"
   },
   {
     "url": "tag/树洞/index.html",
-    "revision": "b0c91e50edef070360206af278a7c542"
+    "revision": "e22f302cfe410d72597823d80d6ed141"
   },
   {
     "url": "tag/汽车/index.html",
-    "revision": "f67909d215314683a0c429b953d8493f"
+    "revision": "7dbb94f13ecc86619d43bf545d90aa4b"
   },
   {
     "url": "tag/生活/index.html",
-    "revision": "057a24e9fb9bd4e32ce9747fff79f0ea"
+    "revision": "c0b84c198b18e0288dc64b771d6c92ec"
   },
   {
     "url": "tag/练声/index.html",
-    "revision": "ebbed294ee2a66270cc5362322ed0f1d"
+    "revision": "021d7342f64af8cfba1eb94e92f740d4"
   },
   {
     "url": "tag/网课/index.html",
-    "revision": "97aea121632a1c18ea6b1590665cf6e6"
+    "revision": "a9d0bd6aa9c6cdb80fd086337e7a8816"
   },
   {
     "url": "tag/自由职业/index.html",
-    "revision": "ace6b5265c8f8d1c228af4110da738f5"
+    "revision": "f6c6a49f1e22533dab0ca377efa87ebb"
   },
   {
     "url": "tag/英语/index.html",
-    "revision": "1a12cba605a167d4ffd6c04e8cea4445"
+    "revision": "629406bab3868f52b8af01933f685c11"
   },
   {
     "url": "tag/规范/index.html",
-    "revision": "e2eb0703a3c5be893c31c684e60cdbc1"
+    "revision": "52a1dd222eebbd650e602df4677f4ae9"
   },
   {
     "url": "tag/读书/index.html",
-    "revision": "967ed3974c0a1f4e59412dda18876639"
+    "revision": "3b8ff324ab1de5791a7b0fca7732502c"
   },
   {
     "url": "tag/面试/index.html",
-    "revision": "5b4c2af44804674c1822311195c5ce05"
+    "revision": "277fe5977dc4d6206e75efbf267bd3c0"
   },
   {
     "url": "timeline/index.html",
-    "revision": "ececbb42ea6f7306afb1e0b7ec7ee039"
+    "revision": "9b9d5e0d6080b9b9194a4d47728c6e76"
+  },
+  {
+    "url": "Woz (1).png",
+    "revision": "578f76c16dbb33d6348b2cd1359e4343"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
