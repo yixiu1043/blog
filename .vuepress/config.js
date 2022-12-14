@@ -11,6 +11,11 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
+      {
+        text: 'Docs', icon: 'reco-message', items: [
+          { text: 'Guide', link: '/docs/guide' },
+        ]
+      },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       {
         text: 'More',
@@ -22,8 +27,8 @@ module.exports = {
     ],
     type: 'blog',
     blogConfig: {
-      category: { location: 2, text: 'Category' },
-      tag: { location: 3, text: 'Tag' }
+      category: { location: 3, text: 'Category' },
+      tag: { location: 4, text: 'Tag' }
     },
     friendLink: [
       {
@@ -48,6 +53,9 @@ module.exports = {
     authorAvatar: '/avatar.png',
     // record: 'xxxx',
     startYear: '2018',
+    sidebar: {  // 文档左侧侧边栏配置
+      '/docs/': ['guide', 'marketplace',]
+    },
     // vssueConfig: {
     //   platform: 'github',
     //   owner: 'yueyang8389',
