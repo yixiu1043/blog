@@ -74,7 +74,15 @@ module.exports = {
     },
   },
   markdown: {
-    lineNumbers: false
+    lineNumbers: false,
+    plugins: {
+      '@centerforopenscience/markdown-it-video': {
+        youtube: { width: 854, height: 480 },
+        vimeo: { width: 854, height: 480 },
+        vine: { width: 854, height: 480, embed: 'simple' },
+        prezi: { width: 854, height: 480 }
+      }
+    }
   },
   plugins: [
     [
