@@ -23,7 +23,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
       {
-        text: 'Docs', icon: 'reco-message', items: [
+        text: 'Docs', icon: 'reco-api', items: [
           { text: 'Guide', link: '/docs/guide' },
         ]
       },
@@ -124,6 +124,58 @@ module.exports = {
         align: 'bottom',
         color: '#ff5722',
       },
+    ],
+    [
+      'vuepress-plugin-sponsor',
+      {
+        theme: 'simple',
+        alipay: '/qr-code/alipay.png',
+        wechat: '/qr-code/wechat.png',
+        // qq: '/qr-code/qq.png',
+        paypal: 'https://www.paypal.me/yokefellow',
+        duration: 2000
+      }
+    ],
+    // 有BUG，需要重新刷新，播放器的封面图也可以触发
+    // ['@vuepress/medium-zoom',
+    //   {
+    //     selector: '#app :not(a) > img',
+    //   },
+    // ],
+    [
+      '@vuepress/google-analytics',
+      { ga: 'G-PHG6JX11PC' }  // UA-00000000-0
+    ],
+    [
+      'sitemap',
+      { hostname: 'https://yixiu1043.github.io/blog/' }
+    ],
+    [
+      '@vuepress-reco/vuepress-plugin-bgm-player',
+      {
+        audios: [
+          {
+            name: '강남역 4번 출구',
+            artist: 'Plastic / Fallin` Dild',
+            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+          },
+          {
+            name: '用胳膊当枕头',
+            artist: '최낙타',
+            url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+          }
+        ],
+        autoplay: false,
+        autoShrink: true, //是否自动缩小
+        floatPosition: 'left', //指定浮窗模式浮动在哪一侧
+        position: {    // 播放器位置
+          left: '1rem',
+          bottom: '1rem',
+          'z-index': '99999'
+        }
+      }
     ],
   ],
 }

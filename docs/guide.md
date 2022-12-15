@@ -1,6 +1,7 @@
 ---
 title: Guide
 date: 2022/12/13
+showSponsor: true
 ---
 
 # Getting Started
@@ -47,3 +48,8 @@ Name and save the file to your blog repository `blogs/life/` directory.
 Type your website domain in the browser and browse it.
 
 ## That's it
+
+<InArticleAdsense
+    data-ad-client="ca-pub-3602139393355860"
+    data-ad-slot="1234567890">
+</InArticleAdsense>
