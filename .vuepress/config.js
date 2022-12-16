@@ -65,7 +65,7 @@ module.exports = {
     // record: 'xxxx',
     startYear: '2018',
     sidebar: {  // 文档左侧侧边栏配置
-      '/docs/': ['guide', 'marketplace',]
+      '/docs/': ['guide', 'marketplace', 'advanced-tutorial']
     },
     // vssueConfig: {
     //   platform: 'github',
@@ -136,12 +136,12 @@ module.exports = {
         duration: 2000
       }
     ],
-    // 有BUG，需要重新刷新，播放器的封面图也可以触发
-    // ['@vuepress/medium-zoom',
-    //   {
-    //     selector: '#app :not(a) > img',
-    //   },
-    // ],
+    // 有BUG，有时候点开后会自动缩小
+    ['@vuepress/medium-zoom',
+      {
+        selector: '.content :not(a) > img',
+      },
+    ],
     [
       '@vuepress/google-analytics',
       { ga: 'G-PHG6JX11PC' }  // UA-00000000-0
@@ -150,10 +150,17 @@ module.exports = {
       'sitemap',
       { hostname: 'https://yixiu1043.github.io/blog/' }
     ],
+    // 音乐外链网站：https://www.qqmc.com/up/top16.html，https://music.xf1433.com/
     [
       '@vuepress-reco/vuepress-plugin-bgm-player',
       {
         audios: [
+          {
+            name: 'Klimbim',
+            artist: 'Don Ross',
+            url: 'https://ri01-sycdn.kuwo.cn/b185312fe99fce31d2bf305fcc812b21/639c2342/resource/n1/20/12/3707860174.mp3',
+            cover: 'https://m.media-amazon.com/images/I/71HjRSPc0LL._SS500_.jpg'
+          },
           {
             name: '강남역 4번 출구',
             artist: 'Plastic / Fallin` Dild',
@@ -167,15 +174,21 @@ module.exports = {
             cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
           }
         ],
-        autoplay: false,
+        // autoplay: false,
         autoShrink: true, //是否自动缩小
-        floatPosition: 'left', //指定浮窗模式浮动在哪一侧
-        position: {    // 播放器位置
-          left: '1rem',
-          bottom: '1rem',
-          'z-index': '99999'
-        }
       }
     ],
+    // 在您的 Vuepress 中添加美丽的丝带！
+    ['ribbon'],
+    // 在您的 vuepress 中添加可爱的光标效果！
+    ['cursor-effects'],
+    // 🐾 Click such a lovely cat to back to top!
+    ['go-top'],
+    // TODO vuepress-plugin-seo
   ],
 }
+
+// 参考链接
+// https://vuepress-theme-reco.recoluan.com/views/other/recommend.html
+// https://moefyit.github.io/moefy-vuepress/packages/go-top.html#install
+// https://ianwu.tw/press/vuepress/
