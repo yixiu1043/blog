@@ -41,7 +41,6 @@ View your website reports with Google Analytics
 ### Sitemap
 Search engine optimization techniques to make your website more searchable
 
-
 ### Article-encryption
 Encrypt your posts
 ![8.gif](./image/marketplace/plugin-8.gif)
@@ -49,3 +48,15 @@ Encrypt your posts
 
 ### Google-Ad
 Turn on your Google Ads revenue
+
+### Ribbon
+Add beautiful ribbons to your Website!
+![9.gif](./image/marketplace/plugin-9.gif)
+### Cursor-effects
+Add cute cursor effects to your vuepress!
+![10.gif](./image/marketplace/plugin-10.gif)
+
+### Go-top
+🐾 Click such a lovely cat to back to top!
+![11.gif](./image/marketplace/plugin-11.gif)
+

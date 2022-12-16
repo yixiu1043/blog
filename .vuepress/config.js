@@ -2,7 +2,7 @@ module.exports = {
   title: 'YIXIU',
   description: 'stay hungry stay foolish',
   dest: 'public',
-  // base: '/blog/',
+  base: '/blog/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -65,7 +65,7 @@ module.exports = {
     // record: 'xxxx',
     startYear: '2018',
     sidebar: {  // 文档左侧侧边栏配置
-      '/docs/': ['guide', 'marketplace',]
+      '/docs/': ['guide', 'marketplace', 'advanced-tutorial']
     },
     // vssueConfig: {
     //   platform: 'github',
