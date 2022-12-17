@@ -10,5 +10,5 @@ export default ({
   Vue.use(Ads.Adsense)
   Vue.use(Ads.InArticleAdsense)
   Vue.use(Ads.InFeedAdsense)
-  Vue.use(Ads.AutoAdsense, { adClient: 'ca-pub-3602139393355860', isNewAdsCode: true })
+  // Vue.use(Ads.AutoAdsense, { adClient: 'ca-pub-3602139393355860', isNewAdsCode: true })
 }
