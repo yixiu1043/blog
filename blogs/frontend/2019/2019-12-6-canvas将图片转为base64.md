@@ -1,6 +1,6 @@
 ---
 title: canvas将图片转为base64
-date: 2019-12-06
+date: 2019/12/06
 tags:
   - Canvas
   - Js

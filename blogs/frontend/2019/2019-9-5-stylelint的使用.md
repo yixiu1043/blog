@@ -1,6 +1,6 @@
 ---
 title: stylelint的使用
-date: 2019-09-05
+date: 2019/09/05
 tags:
   - Stylelint
   - 工具

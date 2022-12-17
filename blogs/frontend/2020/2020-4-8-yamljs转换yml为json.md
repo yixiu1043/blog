@@ -1,6 +1,6 @@
 ---
 title: yamljs转换yml为json
-date: 2020-4-8
+date: 2020/4/8
 tags:
   - 工具
 categories:
@@ -10,7 +10,7 @@ categories:
 # yamljs转换yml为json
 
 ## 安装
-```ssh
+```bash
 $ yarn add yamljs
 ```
 

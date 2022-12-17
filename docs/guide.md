@@ -25,7 +25,7 @@ Open your Typora App and copy the below texts to your file:
 ```
 ---
 title: My First Post
-date: 2022-12-12
+date: 2022/12/12
 tags:
 - photography
 categories:

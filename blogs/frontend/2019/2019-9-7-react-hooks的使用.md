@@ -1,6 +1,6 @@
 ---
 title: react-hooks的使用
-date: 2019-09-07
+date: 2019/09/07
 tags:
   - React
 categories:
