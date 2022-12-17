@@ -50,6 +50,9 @@ Type your website domain in the browser and browse it.
 ## That's it
 
 <InArticleAdsense
-    data-ad-client="ca-pub-3602139393355860"
-    data-ad-slot="1234567890">
+  data-ad-client="ca-pub-3602139393355860"
+  data-ad-slot="1663320516"
+  data-ad-format="auto"
+  data-full-width-responsive="true"
+>
 </InArticleAdsense>

@@ -37,9 +37,26 @@ module.exports = {
     [
       "script",
       {},
-      [
-        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-PHG6JX11PC');",
-      ],
+      `
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-PHG6JX11PC');
+      `
+    ],
+    [
+      "script",
+      {
+        src: "https://unpkg.com/vconsole/dist/vconsole.min.js",
+      },
+    ],
+    [
+      "script",
+      {},
+      `
+      new VConsole();
+      `
     ],
   ],
   theme: "reco",
@@ -164,7 +181,7 @@ module.exports = {
     [
       "@vuepress/medium-zoom",
       {
-        selector: ".content :not(a) > img",
+        selector: ".theme-reco-content :not(a) > img",
       },
     ],
     // 2023.7.1后谷歌不再支持
@@ -178,13 +195,6 @@ module.exports = {
       "@vuepress-reco/vuepress-plugin-bgm-player",
       {
         audios: [
-          {
-            name: "Klimbim",
-            artist: "Don Ross",
-            url: "https://ri01-sycdn.kuwo.cn/b185312fe99fce31d2bf305fcc812b21/639c2342/resource/n1/20/12/3707860174.mp3",
-            cover:
-              "https://m.media-amazon.com/images/I/71HjRSPc0LL._SS500_.jpg",
-          },
           {
             name: "강남역 4번 출구",
             artist: "Plastic / Fallin` Dild",
