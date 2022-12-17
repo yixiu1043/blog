@@ -15,4 +15,9 @@ You can add the code in the area where your article needs to display the video.
 ```
 @[vimeo](https://vimeo.com/748635397)
 
-
+### How to add mailchimp to article 
+You can add the code in the area where your article needs to display the subscription.
+```md
+<SimpleNewsletter/>
+```
+![12.png](./image/marketplace/plugin-12.png)

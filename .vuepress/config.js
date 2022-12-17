@@ -218,6 +218,13 @@ module.exports = {
     ["cursor-effects"],
     // Click such a lovely cat to back to top!
     ["go-top"],
+    // https://us11.admin.mailchimp.com/
+    [
+      "vuepress-plugin-mailchimp",
+      {
+        endpoint: "https://github.us11.list-manage.com/subscribe/post?u=ab7406f99ada59774695c2213&amp;id=d8a40f9327&amp;f_id=00a89ee0f0"
+      },
+    ]
     // TODO vuepress-plugin-seo
   ],
 };
@@ -226,3 +233,4 @@ module.exports = {
 // https://vuepress-theme-reco.recoluan.com/views/other/recommend.html
 // https://moefyit.github.io/moefy-vuepress/packages/go-top.html#install
 // https://ianwu.tw/press/vuepress/
+// https://vuepress-plugin-mailchimp.billyyyyy3320.com/

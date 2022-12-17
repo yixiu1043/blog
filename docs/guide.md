@@ -49,6 +49,8 @@ Type your website domain in the browser and browse it.
 
 ## That's it
 
+<SimpleNewsletter/>
+
 <InArticleAdsense
   data-ad-client="ca-pub-3602139393355860"
   data-ad-slot="1663320516"
