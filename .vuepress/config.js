@@ -31,7 +31,7 @@ module.exports = {
       "script",
       {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-PHG6JX11PC",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-KVF6MNQPVP",
       },
     ],
     [
@@ -42,7 +42,7 @@ module.exports = {
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
 
-      gtag('config', 'G-PHG6JX11PC');
+      gtag('config', 'G-KVF6MNQPVP');
       `
     ],
     [
