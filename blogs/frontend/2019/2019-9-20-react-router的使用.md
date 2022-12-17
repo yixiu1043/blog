@@ -1,6 +1,6 @@
 ---
 title: react-router的使用
-date: 2019-09-20
+date: 2019/09/20
 tags:
   - React
 categories:

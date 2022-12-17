@@ -1,6 +1,6 @@
 ---
 title: 用vuepress搭建个人博客
-date: 2019-08-10
+date: 2019/08/10
 tags:
   - Vuepress
   - 工具
@@ -71,7 +71,7 @@ yarn && yarn dev
 
 ```js
 ---
-date: 2019-8-8 // 和文件名的日期一致
+date: 2019/8/8 // 和文件名的日期一致
 tag:
   - 编程
 author: 一修

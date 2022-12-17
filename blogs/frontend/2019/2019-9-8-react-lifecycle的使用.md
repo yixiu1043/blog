@@ -1,6 +1,6 @@
 ---
 title: react-lifecycle的使用
-date: 2019-09-08
+date: 2019/09/08
 tags:
   - React
 categories:

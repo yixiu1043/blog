@@ -1,6 +1,6 @@
 ---
 title: Flutter踩坑
-date: 2020-7-8
+date: 2020/7/8
 tags:
   - flutter
 category: 前端
