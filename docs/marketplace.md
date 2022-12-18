@@ -3,8 +3,6 @@ title: Marketplace
 date: 2020/12/14
 ---
 
-# MarketPlace
-
 ### PWA
 - update popover
 - offline access

@@ -1,10 +1,8 @@
 ---
-title: Getting-start
+title: Getting Started
 date: 2022/12/13
 showSponsor: true
 ---
-
-# Getting Started
 
 ## Step 1: Prerequisites
 Please download and install the following free tools in advance.
