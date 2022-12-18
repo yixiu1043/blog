@@ -66,7 +66,10 @@ module.exports = {
       {
         text: "Docs",
         icon: "reco-api",
-        items: [{ text: "Guide", link: "/docs/guide" }],
+        items: [
+          { text: "Guide", link: "/docs/" },
+          { text: "Case", link: "/docs/case" },
+        ],
       },
       { text: "TimeLine", link: "/timeline/", icon: "reco-date" },
       {
@@ -116,7 +119,7 @@ module.exports = {
     startYear: "2018",
     sidebar: {
       // 文档左侧侧边栏配置
-      "/docs/": ["guide", "marketplace", "advanced-tutorial"],
+      "/docs/": ["", "case", "marketplace", "advanced-tutorial"],
     },
     // vssueConfig: {
     //   platform: 'github',

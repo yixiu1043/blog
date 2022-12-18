@@ -3,8 +3,6 @@ title: Marketplace
 date: 2020/12/14
 ---
 
-# MarketPlace
-
 ### PWA
 - update popover
 - offline access
@@ -34,20 +32,12 @@ Get sponsorship from your users
 
 <!-- ### Image zoom
 zoom your Image -->
-
-### Google-analytics
-View your website reports with Google Analytics
-
 ### Sitemap
 Search engine optimization techniques to make your website more searchable
 
 ### Article-encryption
 Encrypt your posts
 ![8.gif](./image/marketplace/plugin-8.gif)
-
-
-### Google-Ad
-Turn on your Google Ads revenue
 
 ### Ribbon
 Add beautiful ribbons to your Website!
@@ -60,3 +50,14 @@ Add cute cursor effects to your vuepress!
 🐾 Click such a lovely cat to back to top!
 ![11.gif](./image/marketplace/plugin-11.gif)
 
+### Mailchimp
+Email marketing
+![12.png](./image/marketplace/plugin-12.png)
+
+### Google-analytics 
+View your website reports with Google Analytics
+![13.png](./image/marketplace/plugin-13.png)
+
+### Google-adsense ad
+Turn on your Google Ads revenue
+![14.png](./image/marketplace/plugin-14.png)

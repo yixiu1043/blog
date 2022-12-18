@@ -3,8 +3,6 @@ title: Advanced Tutorial
 date: 2022/12/16
 ---
 
-# Advanced Tutorial
-
 ### Markdown Tutorial
 Markdown basic-syntax [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 
