@@ -35,7 +35,7 @@ dependencies:
       FlutterBridge.postMessage(JSON.stringify(data));
     }
   </script>
-</body
+</body>
 ```
 
 ### Flutter接收消息
@@ -70,8 +70,13 @@ Scaffold(
 ## Flutter Web与JS通信
 该场景适用于Flutter Web使用Iframe加载HTML。
 
-### Flutter往window对象注入数据
+### 子访问父
+#### Flutter向Window对象注入数据
 ```dart
+// 父
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:html';
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:ui' as ui;
+
 class VideoPlayer extends StatefulWidget {
   const VideoPlayer({super.key});
 
@@ -105,86 +110,85 @@ class _VideoPlayerState extends State<VideoPlayer> {
 }
 ```
 
-### Js访问注入的数据
+#### Js访问注入Window对象的数据
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      html,
-      body {
-        background-color: #000000;
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-      }
-      button.vjs-picture-in-picture-control,
-      button.vjs-fullscreen-control,
-      button.vjs-big-play-button {
-        display: none !important;
-      }
-      #my-video {
-        background-color: #000000;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        max-width: 100%;
-        min-height: 100%;
-      }
-    </style>
-</head>
+// 子
 <body>
-    <video
-        id="my-video"
-        class="video-js"
-        controls
-        autoplay
-        muted
-        loop
-        disablePictureInPicture
-        controlslist="nodownload nofullscreen noremoteplayback"
-        webkit-playsinline
-        playsinline
-        x5-playsinline
-        t7-video-player-type="inline"
-        x5-video-player-type="h5-page"
-    >
-        <p class="vjs-no-js">
-            To view this video please enable JavaScript, and consider upgrading to a
-            web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank"
-            >supports HTML5 video</a
-            >
-        </p>
-    </video>
-
-    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
-    <script>
-      var isProd = window.parent.isProd; // 接收数据
-      videojs(document.getElementById("my-video"), {
-        poster: isProd
-          ? "http://jimg.bvd58s.com/static/img/jcbg.jpg"
-          : "../video/fa_bg.png",
-        sources: [
-          {
-            src: isProd
-              ? "https://media.w3.org/2010/05/sintel/trailer.mp4"
-              : "../video/fa.mp4",
-            type: "video/mp4",
-          },
-        ],
-      });
-    </script>
+  <script>
+    var isProd = window.parent.isProd; // 接收数据
+    console.log(isProd);
+  </script>
 </body>
-</html>
+```
 
+### 父访问子
+#### Flutter调用Window对象的方法
+```html
+// 父
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:html';
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:ui' as ui;
+
+class VideoPlayer extends StatefulWidget {
+  const VideoPlayer({Key? key}) : super(key: key);
+
+  @override
+  State<VideoPlayer> createState() => _VideoPlayerState();
+}
+
+class _VideoPlayerState extends State<VideoPlayer> {
+  final String _viewId = 'video-player';
+  late final StreamSubscription? listener;
+
+  @override
+  void initState() {
+    super.initState();
+    _listener();
+    ui.platformViewRegistry.registerViewFactory(_viewId, (int viewId) {
+      IFrameElement element = IFrameElement();
+      element.style.border = 'none';
+      element.src = 'assets/web/index.html';
+      return element;
+    });
+  }
+
+  void _listener() {
+    listener = window.onMessage.listen((event) {
+      final code = event.data['code'];
+      switch (code) {
+        case 1000:
+          // print("onReady");
+          js.context.callMethod("setEnv", ['prod']);
+          break;
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return HtmlElementView(viewType: _viewId);
+  }
+
+  @override
+  void dispose() {
+    listener?.cancel();
+    super.dispose();
+  }
+}
+```
+
+#### Js向Window对象注入数据
+```html
+// 子
+<body>
+  <script>
+    window.onload = () => {
+      window.parent.postMessage({ code: 1000 });
+    }
+    var _env;
+    function setEnv(env) {
+      _env = env;
+    }
+    window.parent.setEnv = setEnv;
+  </script>
+</body>
 ```

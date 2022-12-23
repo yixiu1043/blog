@@ -98,10 +98,8 @@ fvm flutter build web --release --pwa-strategy none --web-renderer auto -t lib/f
 /// video_player_web.dart
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:ob_zr_activity/utils/fake.dart'
-    if (dart.library.html) 'dart:html';
-import 'package:ob_zr_activity/utils/fake.dart' if (dart.library.html) 'dart:ui'
-    as ui;
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:html';
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:ui' as ui;
 
 class VideoPlayer extends StatefulWidget {
   const VideoPlayer({super.key});
@@ -241,7 +239,7 @@ class Style {
     </p>
   </video>
 
-<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
 </body>
 </html>
 ```
