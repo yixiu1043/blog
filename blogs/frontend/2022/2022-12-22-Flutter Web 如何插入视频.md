@@ -121,7 +121,7 @@ class _VideoPlayerState extends State<VideoPlayer> {
       IFrameElement element = IFrameElement();
       element.style.border = 'none';
       element.src =
-          kReleaseMode ? 'assets/assets/web/video.html' : '/assets/web/video.html';
+          kReleaseMode ? 'assets/assets/web/video.html' : 'assets/web/video.html';
       return element;
     });
   }
