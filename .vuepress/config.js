@@ -227,7 +227,8 @@ module.exports = {
       {
         endpoint: "https://github.us11.list-manage.com/subscribe/post?u=ab7406f99ada59774695c2213&amp;id=d8a40f9327&amp;f_id=00a89ee0f0"
       },
-    ]
+    ],
+    ["vuepress-plugin-smooth-scroll"],
     // TODO vuepress-plugin-seo
   ],
 };
@@ -237,3 +238,4 @@ module.exports = {
 // https://moefyit.github.io/moefy-vuepress/packages/go-top.html#install
 // https://ianwu.tw/press/vuepress/
 // https://vuepress-plugin-mailchimp.billyyyyy3320.com/
+// https://vuepress-community.netlify.app/zh/
