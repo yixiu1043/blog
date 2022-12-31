@@ -123,7 +123,7 @@ class _VideoPlayerState extends State<VideoPlayer> {
 
 ### 父访问子
 #### Flutter调用Window对象的方法
-```html
+```dart
 // 父
 import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:html';
 import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:ui' as ui;
