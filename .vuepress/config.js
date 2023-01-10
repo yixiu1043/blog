@@ -45,19 +45,19 @@ module.exports = {
       gtag('config', 'G-KVF6MNQPVP');
       `
     ],
-    [
-      "script",
-      {
-        src: "https://unpkg.com/vconsole/dist/vconsole.min.js",
-      },
-    ],
-    [
-      "script",
-      {},
-      `
-      new VConsole();
-      `
-    ],
+    // [
+    //   "script",
+    //   {
+    //     src: "https://unpkg.com/vconsole/dist/vconsole.min.js",
+    //   },
+    // ],
+    // [
+    //   "script",
+    //   {},
+    //   `
+    //   new VConsole();
+    //   `
+    // ],
   ],
   theme: "reco",
   themeConfig: {
