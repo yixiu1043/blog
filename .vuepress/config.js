@@ -2,7 +2,7 @@ module.exports = {
   title: "YIXIU",
   description: "stay hungry stay foolish",
   dest: "public",
-  base: '/blog/',
+  base: "/blog/",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
@@ -40,9 +40,9 @@ module.exports = {
       `
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'G-KVF6MNQPVP');
+      gtag("config", "G-KVF6MNQPVP");
       `
     ],
     // [
@@ -92,6 +92,12 @@ module.exports = {
     blogConfig: {
       category: { location: 3, text: "Category" },
       tag: { location: 4, text: "Tag" },
+      socialLinks: [     // 信息栏展示社交信息
+        // 内置图标：https://vuepress-theme-reco.recoluan.com/views/1.x/configJs.html#%E5%9B%BE%E6%A0%87
+        { icon: "reco-github", link: "https://github.com/yixiu1043" },
+        // fontawesome图标：https://fontawesome.com/v4/icons/
+        { icon: "fa fa-handshake-o", link: "https://www.fiverr.com/wozblue" },
+      ],
     },
     friendLink: [
       {
@@ -108,7 +114,7 @@ module.exports = {
         link: "https://vuepress-theme-reco.recoluan.com",
       },
       {
-        title: "my fiverr",
+        title: "fiverr",
         desc: "become freelancer",
         logo:
           "https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/a956c117b9665f9e1ace2b56e68f2e62-1670834440955/bd98a46c-946d-478e-8a51-67f8f2995710.jpg",
@@ -122,19 +128,19 @@ module.exports = {
     lastUpdated: "Last Updated",
     author: "yixiu",
     authorAvatar: "/avatar-4.png",
-    // record: 'xxxx',
+    // record: "xxxx",
     startYear: "2018",
     sidebar: {
       // 文档左侧侧边栏配置
       "/docs/": ["", "case", "marketplace", "advanced-tutorial"],
     },
     // vssueConfig: {
-    //   platform: 'github',
-    //   owner: 'yueyang8389',
-    //   repo: 'blog',
-    //   clientId: '0f4626f3176a519365e0',
-    //   clientSecret: 'db6cc00dea72f422b254efb1e4f6fc66707a3466',
-    //   autoCreatIssue: process.env.NODE_ENV !== 'development'
+    //   platform: "github",
+    //   owner: "yueyang8389",
+    //   repo: "blog",
+    //   clientId: "0f4626f3176a519365e0",
+    //   clientSecret: "db6cc00dea72f422b254efb1e4f6fc66707a3466",
+    //   autoCreatIssue: process.env.NODE_ENV !== "development"
     // },
     /**
      * valine
@@ -182,7 +188,7 @@ module.exports = {
         theme: "simple",
         alipay: "/qr-code/alipay.png",
         wechat: "/qr-code/wechat.png",
-        // qq: '/qr-code/qq.png',
+        // qq: "/qr-code/qq.png",
         paypal: "https://www.paypal.me/yokefellow",
         duration: 2000,
       },
