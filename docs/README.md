@@ -2,6 +2,7 @@
 title: Getting Started
 date: 2022/12/13
 showSponsor: true
+publish: false
 ---
 
 ## Step 1: Prerequisites

@@ -1,6 +1,7 @@
 ---
 title: Advanced Tutorial
 date: 2022/12/16
+publish: false
 ---
 
 ### Markdown Tutorial

@@ -107,6 +107,13 @@ module.exports = {
           "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         link: "https://vuepress-theme-reco.recoluan.com",
       },
+      {
+        title: "my fiverr",
+        desc: "become freelancer",
+        avatar:
+          "https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/a956c117b9665f9e1ace2b56e68f2e62-1670834440955/bd98a46c-946d-478e-8a51-67f8f2995710.jpg",
+        link: " https://www.fiverr.com/wozblue",
+      },
     ],
     logo: "/logo.png",
     search: true,
@@ -216,9 +223,9 @@ module.exports = {
       },
     ],
     // 在您的 Vuepress 中添加美丽的丝带！
-    ["ribbon"],
+    // ["ribbon"],
     // 在您的 vuepress 中添加可爱的光标效果！
-    ["cursor-effects"],
+    // ["cursor-effects"],
     // Click such a lovely cat to back to top!
     ["go-top"],
     // https://us11.admin.mailchimp.com/
