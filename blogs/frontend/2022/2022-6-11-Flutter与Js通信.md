@@ -76,6 +76,7 @@ Scaffold(
 // 父
 import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:html';
 import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:ui' as ui;
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:js' as js;
 
 class VideoPlayer extends StatefulWidget {
   const VideoPlayer({super.key});
@@ -127,6 +128,7 @@ class _VideoPlayerState extends State<VideoPlayer> {
 // 父
 import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:html';
 import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:ui' as ui;
+import 'package:demo/utils/fake.dart' if (dart.library.html) 'dart:js' as js;
 
 class VideoPlayer extends StatefulWidget {
   const VideoPlayer({Key? key}) : super(key: key);
