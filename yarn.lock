@@ -1068,13 +1068,6 @@
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
-"@moefe/vue-aplayer@2.0.0-beta.5":
-  version "2.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@moefe/vue-aplayer/-/vue-aplayer-2.0.0-beta.5.tgz#f6bbd1802562e8e30ef9106192008a90bed2a354"
-  integrity sha512-ytzp4GStzjftuh7H1rIS/ziqwV1FO67iTLSkDxgN0J2bqlO+rBgDDr83Y+pZKBIgRUc30uu/UZHqmE4QiBHHeg==
-  dependencies:
-    vue "^2.5.17"
-
 "@moefy-canvas/core@^0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@moefy-canvas/core/-/core-0.5.2.tgz#fd3994025942e911a6dc94b85e564818ef202f7b"
@@ -1661,13 +1654,6 @@
     vuepress-plugin-feed "^0.1.8"
     vuepress-plugin-mailchimp "^1.4.1"
     vuepress-plugin-sitemap "^2.3.1"
-
-"@vuepress/plugin-google-analytics@^1.9.7":
-  version "1.9.7"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.9.7.tgz#0162e7bb28686422298c04a12f2e7727a2708d90"
-  integrity sha512-ZpsYrk23JdwbcJo9xArVcdqYHt5VyTX9UN9bLqNrLJRgRTV0X2jKUkM63dlKTJMpBf+0K1PQMJbGBXgOO7Yh0Q==
-  dependencies:
-    "@vuepress/types" "1.9.7"
 
 "@vuepress/plugin-last-updated@1.9.7":
   version "1.9.7"
@@ -4974,9 +4960,9 @@ htmlparser2@^6.1.0:
     entities "^2.0.0"
 
 http-cache-semantics@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
-  integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz#abe02fcb2985460bf0323be664436ec3476a6d5a"
+  integrity sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==
 
 http-deceiver@^1.2.7:
   version "1.2.7"
@@ -9186,7 +9172,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.5.17, vue@^2.6.10, vue@^2.6.12:
+vue@^2.6.10, vue@^2.6.12:
   version "2.7.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.14.tgz#3743dcd248fd3a34d421ae456b864a0246bafb17"
   integrity sha512-b2qkFyOM0kwqWFuQmgd4o+uHGU7T+2z3T+WQp8UBjADfEv2n4FEMffzBmCKNP0IGzOEEfYjvtcC62xaSKeQDrQ==
@@ -9257,20 +9243,13 @@ vuepress-plugin-go-top@^1.0.4:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-go-top/-/vuepress-plugin-go-top-1.0.4.tgz#b2c359d85280e8737c65a43fde6e6d42953878af"
   integrity sha512-VxYrZmvC9agXVOEzy1G7mJj23p17O7CVmcXhlaFtQ+J827OcIqNC1X646/gOI8Hfn8or17+J+8/Bg0ZSRyizEA==
 
-vuepress-plugin-mailchimp@^1.4.1:
+vuepress-plugin-mailchimp@^1.4.1, vuepress-plugin-mailchimp@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-mailchimp/-/vuepress-plugin-mailchimp-1.4.2.tgz#373fa1df8f03a8993817b09ddfb8bd9d04a1c665"
   integrity sha512-4t5ZaKZXu5ZkwgE+WW//7CgXgz6DEhRefGrO5aql4PwapauNXlHKgQ2JMf9FRe5y5WHjNpDHYveEDNzISZmxJw==
   dependencies:
     jsonp "^0.2.1"
     query-string "^6.9.0"
-
-vuepress-plugin-meting@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-meting/-/vuepress-plugin-meting-0.3.3.tgz#cc2900c996796afbeaac66fa258335fb9049a932"
-  integrity sha512-HTF5h4k8CuSgDSAFNBtfDE33bn5hap96C8h3owrQqKP639d5Bht6PvM34p8MMIzuVseHL2NDlHlKLLYPNzp31Q==
-  dependencies:
-    "@moefe/vue-aplayer" "2.0.0-beta.5"
 
 vuepress-plugin-permalink-pinyin@^1.1.0:
   version "1.1.0"
@@ -9292,6 +9271,13 @@ vuepress-plugin-sitemap@^2.3.1:
   integrity sha512-n+8lbukhrKrsI9H/EX0EBgkE1pn85LAQFvQ5dIvrZP4Kz6JxPOPPNTQmZMhahQV1tXbLZQCEN7A1WZH4x+arJQ==
   dependencies:
     sitemap "^3.0.0"
+
+vuepress-plugin-smooth-scroll@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.10.tgz#6cb6926032bd5abd7b928df6e7b73b8dd31b5f9d"
+  integrity sha512-1B7cc0OxROX9aPdktTF6lGqASGh3h0mtiUCmbAVZfGDtTOGUYDDA1BhLV96zkz/v1Zh/UvKP2gF6ADrcV83BMg==
+  dependencies:
+    smoothscroll-polyfill "^0.4.4"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
