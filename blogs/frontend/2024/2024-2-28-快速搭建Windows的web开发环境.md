@@ -100,7 +100,15 @@ choco upgrade all
 
 ### 安装 Git
 
-参考：[Git 详细安装教程（详解 Git 安装过程的每一个步骤）\_git 安装-CSDN 博客](https://blog.csdn.net/mukes/article/details/115693833)
+方式一：
+
+1. 以管理员身份打开powershell窗口
+2. 运行`choco install git`
+3. 重新打开一个powershell窗口，运行`git --version`检查是否安装成功
+
+方式二：
+
+图文安装参考：[Git 详细安装教程（详解 Git 安装过程的每一个步骤）_git安装-CSDN博客](https://blog.csdn.net/mukes/article/details/115693833)
 
 ### 安装编辑器
 
@@ -223,7 +231,9 @@ choco upgrade all
    OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
    ```
 
-### 安装 Flutter
+9. sdk link 本地已安装的jdk`sdk install java 1.8.0_211 /c/Program\ Files/Java/jdk1.8.0_211`，路径的空格要用反斜杠进行转译
+
+### 安装Flutter
 
 1. 以管理员身份打开 powershell 窗口
 2. 运行`choco install flutter`
@@ -323,26 +333,48 @@ choco upgrade all
 
 ![image-20240226160207125](../../image/image-20240226160207125.png)
 
-## GitLab 拉取代码
+### 运行flutter报错1
 
-内网权限必须先开放，hosts 映射设置完成
+![image-20240304092328471](../../image/image-20240304092328471.png)
 
-1. 询问 gitlab 账号，并进项目
+解决办法：
 
-2. 完成 google authenticator 绑定
+![image-20240304095520678](../../image/image-20240304095520678.png)
 
-3. 设置 Access Tokens
+![image-20240304095418420](../../image/image-20240304095418420.png)
 
-   ![image-20240226172705470](../../image/image-20240226172705470.png)
 
-4. 拼接 git 仓库地址
 
-   例如：
+### 连接夜神模拟器
 
-   ​ Access Token：glpat-yzrzDzHsmRZ6cXEraAeq
+1. 进入夜神安装目录的bin目录
 
-   ​ 仓库地址为：git@git.xxx.com:frontend/xxxxxxxxxxxxxx.git
+2. 运行`nox_adb.exe connect 127.0.0.1:62001`
 
-   ​ 拼接后为：https://oauth2:glpat-yzrzDzHsmRZ6cXEraAeq@git.xxx.com/frontend/xxxxxxxxxxxxxx.git
+### flutter 命令报错
 
-5. 如果提示 https 证书错误，使用 `git config --global http.sslVerify false`
+![image-20240305145138520](C:\Users\charles\AppData\Roaming\Typora\typora-user-images\image-20240305145138520.png)
+
+运行`git config --global --add safe.directory '*'`可解决
+
+
+
+### Windows下Webstorm全局查找 ctlr+shift+f 快捷键冲突无反应
+
+1. 右键单击任务栏图标
+
+![image-20240306174744388](C:\Users\charles\AppData\Roaming\Typora\typora-user-images\image-20240306174744388.png)
+
+2. 选择设置
+
+   ![image-20240306174841560](C:\Users\charles\AppData\Roaming\Typora\typora-user-images\image-20240306174841560.png)
+
+   3. 选择按键
+
+   ![image-20240306175035132](C:\Users\charles\AppData\Roaming\Typora\typora-user-images\image-20240306175035132.png)
+
+   4. 简繁切换关掉
+
+      ![image-20240306174956750](C:\Users\charles\AppData\Roaming\Typora\typora-user-images\image-20240306174956750.png)
+
+
